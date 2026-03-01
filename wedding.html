@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akira & Kanpichanan Wedding</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&family=Prompt:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        :root { --soft-blue: #f0f7ff; --luxury-blue: #4a7c9d; --white: #ffffff; }
+        body { font-family: 'Prompt', sans-serif; margin: 0; background: var(--white); color: #333; }
+        
+        /* Layout สำหรับมือถือ */
+        .container { max-width: 430px; margin: 0 auto; min-height: 100vh; border: 1px solid #eee; }
+        
+        .hero { 
+            height: 100vh; 
+            background: linear-gradient(180deg, rgba(240,247,255,1) 0%, rgba(255,255,255,0) 100%);
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+        }
+
+        h1 { font-family: 'Cormorant Garamond', serif; font-size: 3rem; color: var(--luxury-blue); margin: 0; }
+        .sub-title { letter-spacing: 5px; font-size: 0.9rem; color: #888; margin-bottom: 20px; }
+        
+        .card { 
+            margin: -50px 20px 20px 20px; 
+            background: white; padding: 30px; 
+            border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            text-align: center; border: 1px solid var(--soft-blue);
+        }
+
+        .img-box { width: 100%; height: 500px; background: #eee; margin-bottom: 10px; overflow: hidden; }
+        .img-box img { width: 100%; height: 100%; object-fit: cover; }
+        
+        .btn { 
+            display: block; background: var(--luxury-blue); color: white; 
+            padding: 15px; border-radius: 50px; text-decoration: none; margin-top: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <div class="sub-title">SAVE THE DATE</div>
+            <h1>Akira<br>&</br>Kanpichanan</h1>
+            <p style="margin-top: 20px; font-weight: 200;">23 . 12 . 2026</p>
+        </section>
+
+        <section class="card">
+            <h2 style="color: var(--luxury-blue); font-weight: 400;">Wedding Invitation</h2>
+            <p>ขอเชิญร่วมงานฉลองมงคลสมรสระหว่าง</p>
+            <p><strong>นายอคิราห์</strong> & <strong>นายกันต์พิชนันท์</strong></p>
+            <hr style="border: 0; border-top: 1px solid var(--soft-blue); margin: 20px 0;">
+            <p>ณ Jamsil Indoor Stadium</p>
+            <a href="#" class="btn">เปิดแผนที่ Google Maps</a>
+        </section>
+
+        <section style="padding: 20px;">
+            <div class="img-box">
+                <img src="images/jaehyun-1.jpg" alt="Akira">
+            </div>
+            <div class="img-box" style="height: 500px;">
+                <img src="images/doyoung-1.jpg" alt="Kanpichanan">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
